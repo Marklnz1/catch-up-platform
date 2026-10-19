@@ -1,8 +1,7 @@
 namespace DefaultNamespace;
 
-public class IAuditableEntity
+public interface IAuditableEntity
 {
-
     DateTimeOffset? CreateAt { get; set; }
     DateTimeOffset? UpdateAt { get; set; }
 }

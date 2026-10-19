@@ -1,10 +1,6 @@
-namespace CatchUpPlatform.API.Shared.Domain.Repositories;
+namespace DefaultNamespace.Repositories;
 
-public interface IBaseRepository<TEntity>
+public class IBaseRepository
 {
-    Task AddAsync(TEntity entity, CancellationToken cancellationToken = default);
-    Task<TEntity?> FindByIdAsync(int id, CancellationToken cancellationToken = default);
-    void Update(TEntity entity);
-    void Remove(TEntity entity);
-    Task<IEnumerable<TEntity>> ListAsync(CancellationToken cancellationToken = default);
+    
 }
