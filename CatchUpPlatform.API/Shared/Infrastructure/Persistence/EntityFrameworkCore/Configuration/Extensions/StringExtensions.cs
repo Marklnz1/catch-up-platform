@@ -2,7 +2,7 @@ using Humanizer;
 
 namespace CatchUpPlatform.API.Shared.Infrastructure.Persistence.EntityFrameworkCore.Configuration.Extensions;
 
-public static class StringExtensions
+public static class PersistenceStringExtensions
 {
     public static string ToSnakeCase(this string text)
     {
