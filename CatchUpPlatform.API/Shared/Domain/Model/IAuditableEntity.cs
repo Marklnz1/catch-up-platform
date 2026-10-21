@@ -1,7 +1,7 @@
-namespace DefaultNamespace;
+namespace CatchUpPlatform.API.Shared.Domain.Model;
 
 public interface IAuditableEntity
 {
-    DateTimeOffset? CreateAt { get; set; }
-    DateTimeOffset? UpdateAt { get; set; }
+    DateTimeOffset? CreatedAt { get; set; }
+    DateTimeOffset? UpdatedAt { get; set; }
 }
